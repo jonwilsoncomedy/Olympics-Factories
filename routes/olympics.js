@@ -66,7 +66,7 @@ router.get('/taekwondo', function(request, response){
   response.send(taekwondo[ranTKD]);
 });
 
-router.get('/syncswimming', function(request, response){
+router.get('/syncswim', function(request, response){
   var ranSyncSwim = Math.floor(Math.random() * syncSwimming.length);
   response.send(syncSwimming[ranSyncSwim]);
 });
